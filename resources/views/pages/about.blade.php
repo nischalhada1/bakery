@@ -186,10 +186,11 @@ Open Every Day : 7AM - 6PM
         <h3 class=""><strong>Contact us</strong></h3>
         <br>
         <pre class="lead">
-"Place where cakes get SHAPED"
+"Place where cakes get SHAPED" this is the test of the comment 
  Contact us on 9813633705
  Viber :: +977 9813633705
-        </pre>
+       </pre>
+      
     </div>
     <div class="col-md-5">
       <img class="featurette-image img-fluid mx-auto" src="/images/contact.jpg" alt="Generic placeholder image">
