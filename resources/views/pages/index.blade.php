@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="style.css">
 
     <style> 
+    a {
+        font-size: 16px !important
+    }
+
     body{
         padding-top: 55px;
         {{-- background-color: #f7f3f0; --}}
@@ -61,6 +65,11 @@
 
                 <!-- Right Side Of Navbar -->
                 <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link fa fa-shopping-cart" href="/cart"> Shopping Cart
+                            <span class="badge">{{ Session::has('cart') ? Session::get('cart')->totalQty: ''}}</span>
+                        </a>
+                    </li>
                     <!-- Authentication Links -->
                     @guest
                         <li class="nav-item">
@@ -192,7 +201,7 @@
                         <div class="row align-items-center">
                             <div class="col-12 col-md-6">
                                 <div class="single-blog-thumbnail">
-                                    <img src="img/blog-img/3.jpg" alt="">
+                                    <img src="img/bg-img/3.jpg" alt="">
                                 </div>
                             </div>
                             <div class="col-12 col-md-6">
