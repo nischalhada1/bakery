@@ -49,5 +49,5 @@ Route::get('/admin/product/delete/{id}', 'AdminController@delete');
 
 /* For testing */
 Route::get('/test', function(){
-    return view('pages.test');
+    return view('pages.details');
 });

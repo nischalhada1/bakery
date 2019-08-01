@@ -43,7 +43,7 @@
                     $item_image = $item->image;
                     $src=asset($src)."?".time();
                 ?>
-                <kbd><p class="text-center text-primary" style="font-size:18px;">{{$item_name}}</p></kbd>
+                <kbd><p class="text-center text-primary" style="font-size:25px;">{{$item_name}}</p></kbd>
                 <img class="card-img-top" src={{$src}} alt={{$item_name}}/>
 
             <div class="card-body">
@@ -52,7 +52,7 @@
 
               {{-- Cake sizes --}}
             <div class="mb-3">
-              <label for="size">Available size</label>
+              <label for="size">Available Sizes</label>
               <div class="input-group">
                   <?php
                       $selectName = "select-cake".$item->id;
