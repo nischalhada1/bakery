@@ -5,6 +5,10 @@
 <section class="jumbotron text-center" style="background: scroll center url('/images/about/about.jpg');">
     <div class="container" style="height:200px" >
     </div>
+   </div>
+      <h1>Contact us direclty.</h1>
+      <h2>Phone:123456789</h2>      
+   </div>
 </section>
 
 <div class="text-center" style="padding:30px;">
